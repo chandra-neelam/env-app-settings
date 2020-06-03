@@ -1,0 +1,16 @@
+<table class="table table-striped">
+  <thead>
+    <th>#ID</th>
+    <th>Name</th>
+    <th>Salary</th>
+    <th>Age</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of employees">
+      <td>{{employee.id}}</td>
+      <td>{{employee.employee_name}}</td>
+      <td>{{employee.employee_salary}}</td>
+      <td>{{employee.employee_age}}</td>
+    </tr>
+  </tbody>
+</table>
